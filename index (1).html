@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversões de Temperatura </title>
+    <link rel="stylesheet" href="style (1).css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Conversões de Temperatura Gabrielly e Giovanna</h1>
+        <b><p><h>Selecione a Opção Abaixo:</h></p></b>
+        <form id="formTemperatura">
+        <label for="tempCelsiusFahrenheit">Temperatura Celsius Para Fahrenheit
+        <input type="radio" id="tempCelsiusFahrenheit"></label>
+        <br>
+        
+        <label for="tempFahrenheitCelsius">Temperatura Fahrenheit para Celsius
+        <input type="radio" id="tempFahrenheitCelsius"></label>
+        <br> 
+        <br>
+        <input type="number" id="numero">
+        <br> <br>
+        <b><p>Converter valor</p></b>
+        <button type="button" onclick="calcular()">Calcular</button>   
+        <button onclick="limparCampos()">Limpar</button> 
+        <p><b>Resposta</b></p>
+        <div id="resultado"></div>
+       
+    </div>
+</form>
+    
+</body>
+</html>
